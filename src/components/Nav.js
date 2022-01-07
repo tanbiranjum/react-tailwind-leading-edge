@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 /* eslint-disable jsx-a11y/anchor-is-valid */
 const Nav = () => {
   return (
@@ -8,19 +10,19 @@ const Nav = () => {
       <div className="w-2/6">
         <ul className="list-none flex justify-around">
           <li>
-            <a href="#" className="uppercase">
+            <Link to="/" className="uppercase">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="uppercase">
+            <Link to="/contact" className="uppercase">
               Contact
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="uppercase">
+            <Link to="/" className="uppercase">
               About
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
