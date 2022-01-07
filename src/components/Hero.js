@@ -1,4 +1,4 @@
-import designerGirl from '../designer-girl.svg'
+import designerGirl from '../assets/designer-girl.svg'
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
           We help you to improve your media value with professional services
         </p>
         <div className="mt-8">
-          <button className="bg-blue-700 text-white px-4 py-2">
+          <button className="bg-blue-700 text-white px-4 py-2 rounded">
             Get Started
           </button>
           <button className="px-4 py-2">Watch showrell</button>

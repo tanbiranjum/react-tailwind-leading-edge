@@ -8,13 +8,19 @@ const Nav = () => {
       <div className="w-2/6">
         <ul className="list-none flex justify-around">
           <li>
-            <a href="#">Home</a>
+            <a href="#" className="uppercase">
+              Home
+            </a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#" className="uppercase">
+              Contact
+            </a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#" className="uppercase">
+              About
+            </a>
           </li>
         </ul>
       </div>
