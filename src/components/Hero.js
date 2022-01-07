@@ -10,7 +10,7 @@ const Hero = () => {
         </p>
         <div className="mt-8">
           <button className="bg-blue-700 text-white px-4 py-2 rounded">
-            Get Started
+            Get Started &#8618;
           </button>
           <button className="px-4 py-2">Watch showrell</button>
         </div>

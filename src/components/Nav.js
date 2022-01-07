@@ -20,8 +20,8 @@ const Nav = () => {
             </Link>
           </li>
           <li>
-            <Link to="/" className="uppercase">
-              About
+            <Link to="/service" className="uppercase">
+              Service
             </Link>
           </li>
         </ul>
