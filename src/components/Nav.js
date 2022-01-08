@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 const Nav = () => {
@@ -10,19 +10,40 @@ const Nav = () => {
       <div className="w-2/6">
         <ul className="list-none flex justify-around">
           <li>
-            <Link to="/" className="uppercase">
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive
+                  ? 'uppercase bg-blue-700 py-2 px-3 text-white'
+                  : 'uppercase'
+              }
+            >
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/contact" className="uppercase">
+            <NavLink
+              to="/contact"
+              className={({ isActive }) =>
+                isActive
+                  ? 'uppercase bg-blue-700 py-2 px-3 text-white'
+                  : 'uppercase'
+              }
+            >
               Contact
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/service" className="uppercase">
+            <NavLink
+              to="/service"
+              className={({ isActive }) =>
+                isActive
+                  ? 'uppercase bg-blue-700 py-2 px-3 text-white'
+                  : 'uppercase'
+              }
+            >
               Service
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </div>

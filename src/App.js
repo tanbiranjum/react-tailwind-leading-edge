@@ -5,6 +5,8 @@ import Contact from './pages/Contact'
 import Service from './pages/Service'
 import Developing from './pages/Developing'
 import Graphics from './pages/Graphics'
+import MotionGraphics from './pages/MotionGraphics'
+import CyberSecurity from './pages/CyberSecurity'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
@@ -19,6 +21,8 @@ function App() {
           <Route path="/service" element={<Service />}>
             <Route path="web-developing" element={<Developing />} />
             <Route path="graphics-design" element={<Graphics />} />
+            <Route path="motion-graphics" element={<MotionGraphics />} />
+            <Route path="cyber-security" element={<CyberSecurity />} />
           </Route>
         </Routes>
       </Router>

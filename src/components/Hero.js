@@ -4,7 +4,9 @@ const Hero = () => {
   return (
     <div className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 flex mt-12 justify-between p-8">
       <div className="w-2/5">
-        <p className="text-7xl text-white">We Help to Create Progress</p>
+        <p className="text-7xl text-white font-extrabold">
+          We Help to Create Progress
+        </p>
         <p className="mt-6 text-lg text-gray-100">
           We help you to improve your media value with professional services
         </p>
